@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="400dip"
+    android:layout_height="533dip"
+    android:background="#3280A0">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="47dip"
+        android:gravity="left"
+        android:text="@string/str_Non_Standard_Adjust_text"
+        android:textColor="#ffffff"
+        android:textSize="17dip" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="333dip">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <!-- For VIF -->
+            <LinearLayout
+                android:id="@+id/linearlayout_vif"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_nonstandard_vif"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+            </LinearLayout>
+           <!-- For VD -->
+            <LinearLayout
+                android:id="@+id/linearlayout_vd"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_nonstandard_vd"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+            </LinearLayout>
+            <!-- For AUDIO -->
+            <LinearLayout
+                android:id="@+id/linearlayout_audio_nonstan"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_nonstandard_audio"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+            </LinearLayout>
+            <!-- ljh begin  -->
+
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_otheroption_dvbt_dvbc_info"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_dvbt_dvbc_info"
+                    android:layout_width="133dip"
+                    android:gravity="left|center_vertical"
+                    android:textColor="#ffffff"
+                    android:layout_height="fill_parent"
+                    android:textSize="13dip"
+                    android:text="@string/str_factory_otheroption_dvbt_dvbc_info" />
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_dvbt_dvbc_info_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_dvbt_dvbc_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

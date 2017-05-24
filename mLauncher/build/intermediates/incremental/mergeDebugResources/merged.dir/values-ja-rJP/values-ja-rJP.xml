@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="addconfirm">決定する</string>
+    <string name="addnotsuccess">失敗するショートカットを追加する</string>
+    <string name="addsuccess">成功へのショートカットを追加します。</string>
+    <string name="addtitle">ショートカット</string>
+    <string name="allapp">すべてのアプリケーション</string>
+    <string name="allapp_name">すべてのアプリケーション</string>
+    <string name="app_name">MstarLauncher</string>
+    <string name="browser">ブラウザ</string>
+    <string name="delcancel">キャンセル</string>
+    <string name="delconfirm">決定する</string>
+    <string name="delmessage">ショートカットの削除を確認するには</string>
+    <string name="deltitle">ショートカット</string>
+    <string name="gonggongxinxi">テレビがお勧め</string>
+    <string name="hello">Hello World, MstarLauncher!</string>
+    <string name="localmm">ローカル再生</string>
+    <string name="setting">設定する</string>
+    <string name="store">アプリケーションモール</string>
+    <string name="tianqi">天気</string>
+    <string name="tvsource">テレビ</string>
+    <string name="yingyongtuijian">一般的なアプリケーション</string>
+    <string name="zixun">情報</string>
+</resources>

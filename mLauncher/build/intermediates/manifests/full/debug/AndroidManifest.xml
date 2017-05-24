@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.mslauncher"
+    android:process="system"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <uses-permission android:name="android.permission.BIND_APPWIDGET" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.mstar.android.permissionn.ACCESS_TV_DATA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:hardwareAccelerated="@bool/config_hardwareAccelerated"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="@bool/config_largeHeap" >
+        <activity
+            android:name="com.android.mslauncher.LauncherActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="locale|layoutDirection|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:stateNotNeeded="true"
+            android:theme="@style/Theme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.android.mslauncher.AllAppListActivity"
+            android:label="@string/allapp_name"
+            android:theme="@style/Theme" >
+
+            <!--
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            -->
+        </activity>
+
+        <provider
+            android:name="com.android.mslauncher.MstarDatabaseProvider"
+            android:authorities="com.mstar.xy.MstarDatabaseProvider" >
+        </provider>
+
+        <receiver
+            android:name="com.android.mslauncher.AppReceiver"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.android.mslauncher.SysShutDownReceiver"
+            android:label="SystemShutDown" >
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.mslauncher.WidgetReceiver" >
+            <intent-filter>
+                <action android:name="com.mstar.appwidget.action.SEND_PACKNAME" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.android.mslauncher.Wallpaper"
+            android:icon="@drawable/background_icon"
+            android:label="Wallpaper"
+            android:theme="@style/Theme" >
+            <intent-filter>
+                <action android:name="com.android.mslauncher.SETWALLPAPERSET" />
+                <action android:name="android.intent.action.SET_WALLPAPER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

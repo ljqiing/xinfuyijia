@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/page1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#cfe2f3">
+
+    <Button
+        android:id="@+id/imagetv"
+        android:layout_width="250.5dp"
+        android:layout_height="183dp"
+        android:layout_x="39dp"
+        android:layout_y="10.5dp"
+        android:background="@drawable/tv_bg"
+        android:contentDescription="@string/contentdes" >
+    </Button>
+
+    <LinearLayout
+        android:id="@+id/tv_surfaceview_layout"
+        android:layout_width="@dimen/surfaceParams_width"
+        android:layout_height="@dimen/surfaceParams_height"
+        android:layout_x="@dimen/surfaceParams_x"
+        android:layout_y="@dimen/surfaceParams_y"
+        android:orientation="horizontal"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <GridView
+        android:id="@+id/gridview1"
+        android:layout_width="600dp"
+        android:layout_height="202.5dp"
+        android:layout_x="345dp"
+        android:layout_y="15dp"
+        android:columnWidth="15dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="5"
+        android:scrollbars="none" >
+    </GridView>
+
+    <ImageView
+        android:id="@+id/imagemiddle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:contentDescription="@string/contentdes"
+        android:src="@drawable/yuanpan" >
+    </ImageView>
+
+    <Button
+        android:id="@+id/buttonzixun"
+        android:layout_width="42dp"
+        android:layout_height="38dp"
+        android:layout_x="700dp"
+        android:layout_y="10.5dp"
+        android:clickable="false"
+        android:contentDescription="@string/contentdes"
+        android:background="@drawable/usb"
+        android:focusable="false"
+       >
+    </Button>
+
+    <Button
+        android:id="@+id/buttontianqi"
+        android:layout_width="42dp"
+        android:layout_height="38dp"
+        android:layout_x="960dp"
+        android:layout_y="10.5dp"
+        android:background="@drawable/weather"
+        android:contentDescription="@string/contentdes"
+        android:focusable="true" >
+    </Button>
+
+    <TextView
+        android:id="@+id/buttonzixuntext"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:ellipsize="marquee"
+        android:gravity="center_horizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="@string/zixun"
+        android:textColor="#FFFF"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/buttontianqitext"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:ellipsize="marquee"
+        android:gravity="center_horizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="@string/tianqi"
+        android:textColor="#FFFF"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/buttonyinyong"
+        android:layout_width="42dp"
+        android:layout_height="38dp"
+        android:layout_x="760dp"
+        android:layout_y="10.5dp"
+        android:clickable="false"
+        android:contentDescription="@string/contentdes"
+        android:background="@drawable/network"
+        android:focusable="false" >
+    </Button>
+
+    <Button
+        android:id="@+id/buttonxinxi"
+        android:layout_width="42dp"
+        android:layout_height="38dp"
+        android:layout_x="820dp"
+        android:layout_y="10.5dp"
+        android:clickable="false"
+        android:contentDescription="@string/contentdes"
+        android:background="@drawable/wifi"
+        android:focusable="false"
+        android:visibility="invisible">
+    </Button>
+
+    <TextView
+        android:id="@+id/buttonyinyongtext"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:ellipsize="marquee"
+        android:gravity="center_horizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="@string/yingyongtuijian"
+        android:textColor="#FFFF"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/buttonxinxitext"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:ellipsize="marquee"
+        android:gravity="center_horizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="@string/gonggongxinxi"
+        android:textColor="#FFFF"
+        android:textSize="15sp" />
+
+</AbsoluteLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="hello">Hello World, MstarLauncher!</string>
+    <string name="app_name">MstarLauncher</string>
+    <string name="allapp_name">Semua permohonan</string>
+    <string name="allapp">Semua permohonan</string>
+    <string name="store">Mall permohonan</string>
+    <string name="browser">pelayar</string>
+    <string name="setting">menubuhkan</string>
+    <string name="tvsource">TV</string>
+    <string name="localmm">main balik tempatan</string>
+    <string name="zixun">maklumat</string>
+    <string name="tianqi">cuaca</string>
+    <string name="yingyongtuijian">aplikasi popular</string>
+    <string name="gonggongxinxi">televisyen mengesyorkan</string>
+    <string name="addtitle">pintasan</string>
+    <string name="addsuccess">Tambah jalan pintas untuk berjaya</string>
+    <string name="addnotsuccess">Tambah jalan pintas untuk gagal</string>
+    <string name="addconfirm">menentukan</string>
+    <string name="deltitle">pintasan</string>
+    <string name="delmessage">Untuk mengesahkan penyingkiran jalan pintas</string>
+    <string name="delconfirm">menentukan</string>
+    <string name="delcancel">dibatalkan</string>
+
+</resources>

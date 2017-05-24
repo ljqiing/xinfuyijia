@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    <MStar Software>
+    ******************************************************************************
+     MStar Software
+     Copyright (c) 2010 - 2013 MStar Semiconductor, Inc. All rights reserved.
+     All software, firmware and related documentation herein ("MStar Software") are
+     intellectual property of MStar Semiconductor, Inc. ("MStar") and protected by
+     law, including, but not limited to, copyright law and international treaties.
+     Any use, modification, reproduction, retransmission, or republication of all
+     or part of MStar Software is expressly prohibited, unless prior written
+     permission has been granted by MStar.
+
+     By accessing, browsing and/or using MStar Software, you acknowledge that you
+     have read, understood, and agree, to be bound by below terms ("Terms") and to
+     comply with all applicable laws and regulations:
+
+     1. MStar shall retain any and all right, ownership and interest to MStar
+        Software and any modification/derivatives thereof.
+        No right, ownership, or interest to MStar Software and any
+        modification/derivatives thereof is transferred to you under Terms.
+
+     2. You understand that MStar Software might include, incorporate or be
+        supplied together with third party's software and the use of MStar
+        Software may require additional licenses from third parties.
+        Therefore, you hereby agree it is your sole responsibility to separately
+        obtain any and all third party right and license necessary for your use of
+        such third party's software.
+
+     3. MStar Software and any modification/derivatives thereof shall be deemed as
+        MStar's confidential information and you agree to keep MStar's
+        confidential information in strictest confidence and not disclose to any
+        third party.
+
+     4. MStar Software is provided on an "AS IS" basis without warranties of any
+        kind. Any warranties are hereby expressly disclaimed by MStar, including
+        without limitation, any warranties of merchantability, non-infringement of
+        intellectual property rights, fitness for a particular purpose, error free
+        and in conformity with any international standard.  You agree to waive any
+        claim against MStar for any loss, damage, cost or expense that you may
+        incur related to your use of MStar Software.
+        In no event shall MStar be liable for any direct, indirect, incidental or
+        consequential damages, including without limitation, lost of profit or
+        revenues, lost or damage of data, and unauthorized system use.
+        You agree that this Section 4 shall still apply without being affected
+        even if MStar Software has been modified by MStar in accordance with your
+        request or instruction for your use, except otherwise agreed by both
+        parties in writing.
+
+     5. If requested, MStar may from time to time provide technical supports or
+        services in relation with MStar Software to you for your use of
+        MStar Software in conjunction with your or your customer's product
+        ("Services").
+        You understand and agree that, except otherwise agreed by both parties in
+        writing, Services are provided on an "AS IS" basis and the warranty
+        disclaimer set forth in Section 4 above shall apply.
+
+     6. Nothing contained herein shall be construed as by implication, estoppels
+        or otherwise:
+        (a) conferring any license or right to use MStar name, trademark, service
+            mark, symbol or any other identification;
+        (b) obligating MStar or any of its affiliates to furnish any person,
+            including without limitation, you and your customers, any assistance
+            of any kind whatsoever, or any information; or
+        (c) conferring any license or right under any intellectual property right.
+
+     7. These terms shall be governed by and construed in accordance with the laws
+        of Taiwan, R.O.C., excluding its conflict of law rules.
+        Any and all dispute arising out hereof or related hereto shall be finally
+        settled by arbitration referred to the Chinese Arbitration Association,
+        Taipei in accordance with the ROC Arbitration Law and the Arbitration
+        Rules of the Association by three (3) arbitrators appointed in accordance
+        with the said Rules.
+        The place of arbitration shall be in Taipei, Taiwan and the language shall
+        be English.
+        The arbitration award shall be final and binding to both parties.
+
+    ******************************************************************************
+    <MStar Software>
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#3280A0"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="47dip"
+        android:gravity="left"
+        android:text="@string/str_other_option_text"
+        android:textColor="#ffffff"
+        android:textSize="17dip" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="333dip">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <!-- For Watch Dog -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_otheroption_watchdog"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_watchdog"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_watchdog"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_watchdog_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_text_on"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- For Restore To Default -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_otheroption_restoretodefault"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_restoretodefault"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_restoretodefault"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_restoretodefault_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_text_on"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+              <!-- For Power On Mode -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_otheroption_poweronmode"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_poweronmode"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_poweronmode"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_poweronmode_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_text_on"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+                 <!-- For 3D Self-Adaptive Detect Level -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_otheroption_3d_selfadaptive_detectlevel"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_3d_selfadaptive_detectlevel"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_3d_selfadaptive_detectlevel"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_3d_selfadaptive_detectlevel_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+              <!-- For Uart Enable -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_otheroption_uartenable"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_uartenable"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_uartenable"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_uartenable_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_text_on"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For mstv_tool -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_otheroption_mstv_tool"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_mstv_tool"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_mstv_tool"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                 <TextView
+                    android:id="@+id/textview_factory_otheroption_mstv_tool_state"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_factory_otheroption_pq_update_state"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For Setting str enable -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_otheroption_str_enable"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_str_enable"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_str_enable"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_str_enable_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For PQ Update -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_otheroption_pq_update"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_pq_update"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_pq_update"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_pq_update_state"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_factory_otheroption_pq_update_state"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For Upgrade Mboot -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_otheroption_upgrademboot"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_upgrademboot"
+                    android:layout_width="133dip"
+                    android:gravity="left|center_vertical"
+                    android:textColor="#ffffff"
+                    android:layout_height="fill_parent"
+                    android:textSize="13dip"
+                    android:text="@string/str_factory_otheroption_upgrademboot" />
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_upgrademboot_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_upgrademboot_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- For Upgrade Main -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_otheroption_upgrademain"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_upgrademain"
+                    android:layout_width="133dip"
+                    android:gravity="left|center_vertical"
+                    android:textColor="#ffffff"
+                    android:layout_height="fill_parent"
+                    android:textSize="13dip"
+                    android:text="@string/str_factory_otheroption_upgrademain" />
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_upgrademain_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_upgrademain_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For Upgrade 6M30 -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_otheroption_upgrade6m30"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_upgrade6m30"
+                    android:layout_width="133dip"
+                    android:gravity="left|center_vertical"
+                    android:textColor="#ffffff"
+                    android:layout_height="fill_parent"
+                    android:textSize="13dip"
+                    android:text="@string/str_factory_otheroption_upgrade6m30" />
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_upgrade6m30_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_upgrade6m30_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For Upgrade dual Ursa -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_otheroption_upgradedualursa"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_upgradedualursa"
+                    android:layout_width="133dip"
+                    android:gravity="left|center_vertical"
+                    android:textColor="#ffffff"
+                    android:layout_height="fill_parent"
+                    android:textSize="13dip"
+                    android:text="@string/str_factory_otheroption_upgradedualursa" />
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_upgradedualursa_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_upgradedualursa_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For DTV AV Delay -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_otheroption_dtvavdelay"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_dtvavdelay"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_dtvavdelay"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_dtvavdelay_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_text_on"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For DTV Preset -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_otheroption_dtv_preset"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_dtv_preset"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_dtv_preset"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_dtv_preset_state"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_factory_otheroption_dtv_preset_state"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For Wake On Lan -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_otheroption_wake_on_lan"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_wake_on_lan"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_wake_on_lan_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_text_on"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For xvycc -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_otheroption_xvycc"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_xvycc"
+                    android:layout_width="133dip"
+                    android:gravity="left|center_vertical"
+                    android:textColor="#ffffff"
+                    android:layout_height="fill_parent"
+                    android:textSize="13dip"
+                    android:text="@string/str_factory_otheroption_xvycc" />
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_xvycc_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_upgrademain_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+              <!-- For PVR Record All Enable -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_otheroption_pvrrecordall"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_pvrrecordall"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_pvrrecordall"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_pvrrecordall_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For Audio Delay -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_otheroption_audiodelay"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_audiodelay"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_audiodelay"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_audiodelay_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_audiodelay_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- For Factory Channel Preset -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_otheroption_factoryprogrampresetfunction"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_factoryprogrampresetfunction"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_factoryprogrampresetfunction"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- end -->
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

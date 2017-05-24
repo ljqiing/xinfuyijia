@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="addconfirm">определять</string>
+    <string name="addnotsuccess">Добавить ярлык на провал</string>
+    <string name="addsuccess">Добавьте ссылку на успех</string>
+    <string name="addtitle">ссылки</string>
+    <string name="allapp">Все приложения</string>
+    <string name="allapp_name">Все приложения</string>
+    <string name="app_name">MstarLauncher</string>
+    <string name="browser">браузер</string>
+    <string name="delcancel">отменен</string>
+    <string name="delconfirm">Удаление ссылки</string>
+    <string name="delmessage">подтверждать</string>
+    <string name="deltitle">ссылки</string>
+    <string name="gonggongxinxi">Телевизионные рекомендуем</string>
+    <string name="hello">Привет мир, MstarLauncher!</string>
+    <string name="localmm">Местное воспроизведение</string>
+    <string name="setting">создавать</string>
+    <string name="store">Приложение Mall</string>
+    <string name="tianqi">погода</string>
+    <string name="tvsource">телевизор</string>
+    <string name="yingyongtuijian">Популярные приложения</string>
+    <string name="zixun">информация</string>
+</resources>

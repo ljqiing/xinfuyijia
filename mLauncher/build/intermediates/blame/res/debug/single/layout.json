@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "D:\\AndroidWorkPlace\\XinFuYiJa\\mLauncher\\build\\intermediates\\res\\merged\\debug\\layout\\page1_xgt.xml",
+        "source": "D:\\AndroidWorkPlace\\XinFuYiJa\\mLauncher\\src\\main\\res\\layout\\page1_xgt.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkPlace\\XinFuYiJa\\mLauncher\\build\\intermediates\\res\\merged\\debug\\layout\\page2.xml",
+        "source": "D:\\AndroidWorkPlace\\XinFuYiJa\\mLauncher\\src\\main\\res\\layout\\page2.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkPlace\\XinFuYiJa\\mLauncher\\build\\intermediates\\res\\merged\\debug\\layout\\appicon.xml",
+        "source": "D:\\AndroidWorkPlace\\XinFuYiJa\\mLauncher\\src\\main\\res\\layout\\appicon.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkPlace\\XinFuYiJa\\mLauncher\\build\\intermediates\\res\\merged\\debug\\layout\\wallpaper.xml",
+        "source": "D:\\AndroidWorkPlace\\XinFuYiJa\\mLauncher\\src\\main\\res\\layout\\wallpaper.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkPlace\\XinFuYiJa\\mLauncher\\build\\intermediates\\res\\merged\\debug\\layout\\page3_xgt.xml",
+        "source": "D:\\AndroidWorkPlace\\XinFuYiJa\\mLauncher\\src\\main\\res\\layout\\page3_xgt.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkPlace\\XinFuYiJa\\mLauncher\\build\\intermediates\\res\\merged\\debug\\layout\\main_xgt.xml",
+        "source": "D:\\AndroidWorkPlace\\XinFuYiJa\\mLauncher\\src\\main\\res\\layout\\main_xgt.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkPlace\\XinFuYiJa\\mLauncher\\build\\intermediates\\res\\merged\\debug\\layout\\page1.xml",
+        "source": "D:\\AndroidWorkPlace\\XinFuYiJa\\mLauncher\\src\\main\\res\\layout\\page1.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkPlace\\XinFuYiJa\\mLauncher\\build\\intermediates\\res\\merged\\debug\\layout\\page4.xml",
+        "source": "D:\\AndroidWorkPlace\\XinFuYiJa\\mLauncher\\src\\main\\res\\layout\\page4.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkPlace\\XinFuYiJa\\mLauncher\\build\\intermediates\\res\\merged\\debug\\layout\\page2_xgt.xml",
+        "source": "D:\\AndroidWorkPlace\\XinFuYiJa\\mLauncher\\src\\main\\res\\layout\\page2_xgt.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkPlace\\XinFuYiJa\\mLauncher\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\AndroidWorkPlace\\XinFuYiJa\\mLauncher\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkPlace\\XinFuYiJa\\mLauncher\\build\\intermediates\\res\\merged\\debug\\layout\\page3.xml",
+        "source": "D:\\AndroidWorkPlace\\XinFuYiJa\\mLauncher\\src\\main\\res\\layout\\page3.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkPlace\\XinFuYiJa\\mLauncher\\build\\intermediates\\res\\merged\\debug\\layout\\main3d.xml",
+        "source": "D:\\AndroidWorkPlace\\XinFuYiJa\\mLauncher\\src\\main\\res\\layout\\main3d.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkPlace\\XinFuYiJa\\mLauncher\\build\\intermediates\\res\\merged\\debug\\layout\\allapplication.xml",
+        "source": "D:\\AndroidWorkPlace\\XinFuYiJa\\mLauncher\\src\\main\\res\\layout\\allapplication.xml"
+    }
+]

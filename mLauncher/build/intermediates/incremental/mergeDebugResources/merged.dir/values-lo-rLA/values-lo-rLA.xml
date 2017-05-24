@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="addconfirm">ok</string>
+    <string name="addnotsuccess">This shortcut added fail</string>
+    <string name="addsuccess">This Shortcut have added success</string>
+    <string name="addtitle">Shortcut</string>
+    <string name="allapp">Applications</string>
+    <string name="allapp_name">AllApps</string>
+    <string name="app_name">MstarLauncher</string>
+    <string name="browser">Browser</string>
+    <string name="delcancel">cancel</string>
+    <string name="delconfirm">ok</string>
+    <string name="delmessage">Confirm to delete the Shortcut</string>
+    <string name="deltitle">Shortcut</string>
+    <string name="gonggongxinxi">movies</string>
+    <string name="hello">Hello World, MstarLauncher!</string>
+    <string name="localmm">LocalMM</string>
+    <string name="setting">setting</string>
+    <string name="store">Store</string>
+    <string name="tianqi">weather</string>
+    <string name="tvsource">TV</string>
+    <string name="yingyongtuijian">Hot application</string>
+    <string name="zixun">news</string>
+</resources>

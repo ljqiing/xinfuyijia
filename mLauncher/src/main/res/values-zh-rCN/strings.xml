@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="hello">Hello World, MstarLauncher!</string>
+    <string name="app_name">MstarLauncher</string>
+    <string name="allapp_name">全部应用</string>
+    <string name="allapp">全部应用</string>
+    <string name="store">应用商城</string>
+    <string name="browser">浏览器</string>
+    <string name="setting">设置</string>
+    <string name="tvsource">电视</string>
+    <string name="localmm">本地播放</string>
+    <string name="zixun">资讯</string>
+    <string name="tianqi">天气</string>
+    <string name="yingyongtuijian">热门应用</string>
+    <string name="gonggongxinxi">影视推荐</string>
+    <string name="addtitle">快捷方式</string>
+    <string name="addsuccess">快捷方式添加成功</string>
+    <string name="addnotsuccess">快捷方式添加失败</string>
+    <string name="addconfirm">确定</string>
+    <string name="deltitle">快捷方式</string>
+    <string name="delmessage">确认删除快捷方式</string>
+    <string name="delconfirm">确定</string>
+    <string name="delcancel">取消</string>
+    <string name="movemode">现在是移动模式</string>
+    <string name="normalmode">现在是正常模式</string>
+    <string name="wallpaper_instructions">使用图片来设置壁纸</string>
+    <string name="wallpaper">壁纸</string>
+    <string name="package_not_find_ERROR_1">安装包未找到</string>
+    <string name="package_not_find_ERROR_2">安装包未找到，获取数据失败!</string>
+    <string name="this_page_no_icon">这个页面没有图标了!</string>
+    <string name="all_page_is_full">所有的页面已经满了!</string>
+    <string name="the_page_have_exist">这个APP已存在于页面:</string>
+    <string name="the_app_have_add">应用已经添加到   </string>
+    <string name="page"> 页面</string>
+
+</resources>

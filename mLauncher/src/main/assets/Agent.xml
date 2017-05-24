@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROJ name = "mlauncher">
+    <AGENT name="TV">
+
+        <ENTITY name="Page0.search" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page0.010" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page0.011" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page0.012" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page0.013" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page0.014" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page0.020" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page0.021" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page0.022" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page0.023" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page0.024" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page0.025" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+
+    </AGENT>
+    <AGENT name="Move">
+
+        <ENTITY name="Page1.search" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page1.010" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page1.011" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page1.012" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page1.013" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page1.014" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page1.020" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page1.021" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page1.022" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page1.023" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page1.024" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page1.025" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+
+    </AGENT>
+    <AGENT name="Show">
+        <ENTITY name="Page2.000" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page2.010" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page2.020" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+
+    </AGENT>
+    <AGENT name="RecVideo">
+        <ENTITY name="Page2.002" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page2.011" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page2.012" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+
+    </AGENT>
+    <AGENT name="RecApp">
+
+        <ENTITY name="Rec_App" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page2.004" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page2.013" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page2.014" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page2.021" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page2.022" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page2.023" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page2.024" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+    </AGENT>
+    <AGENT name="PreApp">
+        <ENTITY name="Page3.001" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page3.002" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page3.010" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page3.011" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page3.012" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page3.020" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page3.021" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page3.022" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+
+    </AGENT>
+    <AGENT name="MyApp">
+
+        <ENTITY name="Page3.004" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page3.005" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page3.006" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page3.007" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page3.013" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page3.014" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page3.015" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page3.016" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page3.017" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page3.023" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page3.024" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page3.025" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page3.026" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page3.027" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page4.001" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page4.002" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page4.003" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page4.004" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page4.005" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page4.006" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page4.007" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page4.010" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page4.011" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page4.012" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page4.013" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page4.014" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page4.015" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page4.016" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page4.017" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page4.020" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page4.021" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page4.022" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page4.023" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page4.024" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page4.025" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page4.026" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Page4.027" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+
+    </AGENT>
+    <AGENT name="Favorite">
+
+        <ENTITY name="Plane.000" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Plane.001" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Plane.002" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Plane.003" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Plane.004" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Plane.005" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Plane.006" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Plane.007" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+        <ENTITY name="Plane.008" scene="MstarHomeUI" subent="0" tech="0" pass="0" TEXUNIT="0" PF="1"/>
+
+    </AGENT>
+</PROJ>	

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainlayout"
+    android:layout_width="960dp"
+    android:layout_height="540dp"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:id="@+id/absolutelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <com.mstar.launcher.viewpager.MstarViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="960dp"
+            android:layout_height="375dp"
+            android:layout_x="0dp"
+            android:layout_y="15dp"
+            android:persistentDrawingCache="animation" />
+
+        <ImageView
+            android:id="@+id/bottombg"
+            android:layout_width="960dp"
+            android:layout_height="120dp"
+            android:layout_x="0dp"
+            android:layout_y="450dp"
+            android:contentDescription="@string/contentdes"
+            android:src="@drawable/bottompad" />
+
+        <Button
+            android:id="@+id/allapps"
+            android:layout_width="112.5dp"
+            android:layout_height="112.5dp"
+            android:layout_x="490.5dp"
+            android:layout_y="397.5dp"
+            android:background="@drawable/allapp00"
+            android:contentDescription="@string/contentdes"
+            android:focusable="true"
+            android:nextFocusDown="@id/allapps"
+            android:nextFocusLeft="@+id/localmm"
+            android:nextFocusRight="@+id/appstore" />
+
+        <TextView
+            android:id="@+id/allapstext"
+            android:layout_width="112.5dp"
+            android:layout_height="30dp"
+            android:layout_x="492dp"
+            android:layout_y="506.25dp"
+            android:background="@android:color/transparent"
+            android:focusable="false"
+            android:gravity="center_horizontal"
+            android:text="@string/allapp"
+            android:textSize="18.75sp" />
+
+        <Button
+            android:id="@+id/appstore"
+            android:layout_width="112.5dp"
+            android:layout_height="112.5dp"
+            android:layout_x="354dp"
+            android:layout_y="397.5dp"
+            android:background="@drawable/appstore00"
+            android:contentDescription="@string/contentdes"
+            android:focusable="true"
+            android:nextFocusDown="@null"
+            android:nextFocusLeft="@id/allapps"
+            android:nextFocusRight="@+id/browser" />
+
+        <TextView
+            android:id="@+id/apstoretext"
+            android:layout_width="112.5dp"
+            android:layout_height="30dp"
+            android:layout_x="360dp"
+            android:layout_y="506.25dp"
+            android:background="@android:color/transparent"
+            android:focusable="false"
+            android:gravity="center_horizontal"
+            android:text="@string/store"
+            android:textSize="18.75sp" />
+
+        <Button
+            android:id="@+id/browser"
+            android:layout_width="112.5dp"
+            android:layout_height="112.5dp"
+            android:layout_x="213.75dp"
+            android:layout_y="397.5dp"
+            android:background="@drawable/webbrowser00"
+            android:contentDescription="@string/contentdes"
+            android:focusable="true"
+            android:nextFocusDown="@id/browser"
+            android:nextFocusLeft="@id/appstore"
+            android:nextFocusRight="@+id/setting" />
+
+        <TextView
+            android:id="@+id/browsertext"
+            android:layout_width="112.5dp"
+            android:layout_height="30dp"
+            android:layout_x="219.75dp"
+            android:layout_y="506.25dp"
+            android:background="@android:color/transparent"
+            android:focusable="false"
+            android:gravity="center_horizontal"
+            android:text="@string/browser"
+            android:textSize="18.75sp" />
+
+        <Button
+            android:id="@+id/setting"
+            android:layout_width="112.5dp"
+            android:layout_height="112.5dp"
+            android:layout_x="763.5dp"
+            android:layout_y="397.5dp"
+            android:background="@drawable/setting00"
+            android:contentDescription="@string/contentdes"
+            android:focusable="true"
+            android:nextFocusDown="@id/setting"
+            android:nextFocusLeft="@id/browser"
+            android:nextFocusRight="@+id/tvsetting" />
+
+        <TextView
+            android:id="@+id/settingtext"
+            android:layout_width="112.5dp"
+            android:layout_height="30dp"
+            android:layout_x="769.5dp"
+            android:layout_y="506.25dp"
+            android:background="@android:color/transparent"
+            android:focusable="false"
+            android:gravity="center_horizontal"
+            android:text="@string/setting"
+            android:textSize="18.75sp" />
+
+        <Button
+            android:id="@+id/tvsetting"
+            android:layout_width="112.5dp"
+            android:layout_height="112.5dp"
+            android:layout_x="71.25dp"
+            android:layout_y="397.5dp"
+            android:background="@drawable/inputsource00"
+            android:contentDescription="@string/contentdes"
+            android:focusable="true"
+            android:nextFocusDown="@id/tvsetting"
+            android:nextFocusLeft="@id/setting"
+            android:nextFocusRight="@+id/localmm" />
+
+        <TextView
+            android:id="@+id/tvsettingtext"
+            android:layout_width="112.5dp"
+            android:layout_height="30dp"
+            android:layout_x="77.25dp"
+            android:layout_y="506.25dp"
+            android:background="@android:color/transparent"
+            android:focusable="false"
+            android:gravity="center_horizontal"
+            android:text="@string/tvsource"
+            android:textSize="18.75sp" />
+
+        <Button
+            android:id="@+id/localmm"
+            android:layout_width="112.5dp"
+            android:layout_height="112.5dp"
+            android:layout_x="627dp"
+            android:layout_y="397.5dp"
+            android:background="@drawable/localmm00"
+            android:contentDescription="@string/contentdes"
+            android:focusable="true"
+            android:nextFocusDown="@id/localmm"
+            android:nextFocusLeft="@id/tvsetting"
+            android:nextFocusRight="@id/allapps" />
+
+        <TextView
+            android:id="@+id/localmmtext"
+            android:layout_width="112.5dp"
+            android:layout_height="30dp"
+            android:layout_x="633dp"
+            android:layout_y="506.25dp"
+            android:background="@android:color/transparent"
+            android:focusable="false"
+            android:gravity="center_horizontal"
+            android:text="@string/localmm"
+            android:textSize="18.75sp" />
+
+        <ImageView
+            android:id="@+id/pageidx1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="457.5dp"
+            android:layout_y="390dp"
+            android:contentDescription="@string/contentdes" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/pageidx2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:contentDescription="@string/contentdes"
+            android:visibility="invisible">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/pageidx3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:contentDescription="@string/contentdes" >
+        </ImageView>
+    </AbsoluteLayout>
+
+</LinearLayout>

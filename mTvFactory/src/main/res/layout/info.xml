@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dip"
+    android:layout_height="533dip"
+    android:background="#3280A0"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="47dp"
+        android:gravity="left"
+        android:text="@string/str_Info_title"
+        android:textColor="#ffffff"
+        android:textSize="17dp" />
+    <!-- For SW -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_otheroption_sw_version"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:background="@drawable/button_state"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textview_factory_otheroption_sw_version"
+            android:layout_width="133dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_otheroption_sw_version"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/textview_factory_otheroption_sw_version_val"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+    
+    <!-- For Name -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_otheroption_name"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:background="@drawable/button_state"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textview_factory_otheroption_name"
+            android:layout_width="133dip"
+            android:layout_height="fill_parent"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_otheroption_name"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/textview_factory_otheroption_name_val"
+            android:layout_width="133dip"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+    
+    <!-- For Board -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_otheroption_board"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:background="@drawable/button_state"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textview_factory_otheroption_board"
+            android:layout_width="93dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_otheroption_board"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/textview_factory_otheroption_board_val"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+    
+    <!-- For Panel -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_otheroption_panel"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:background="@drawable/button_state"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textview_factory_otheroption_panel"
+            android:layout_width="93dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_otheroption_panel"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/textview_factory_otheroption_panel_val"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+
+    <!-- For Android Build -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_otheroption_android_build"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:background="@drawable/button_state"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textview_factory_otheroption_android_build"
+            android:layout_width="133dip"
+            android:layout_height="fill_parent"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_otheroption_android_build"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/textview_factory_otheroption_android_build_val"
+            android:layout_width="133dip"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+
+	<!-- For Supernova Build -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_otheroption_supernova_build"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:background="@drawable/button_state"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textview_factory_otheroption_supernova_build"
+            android:layout_width="93dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_otheroption_supernova_build"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/textview_factory_otheroption_supernova_build_val"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+
+    <!-- For Mboot Build -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_otheroption_supernova_build"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:background="@drawable/button_state"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textview_factory_otheroption_mboot_build"
+            android:layout_width="93dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_otheroption_mboot_build"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/textview_factory_otheroption_mboot_build_val"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+
+    <!-- For Backlight Current -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_otheroption_backlight_current"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:background="@drawable/button_state"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textview_factory_otheroption_backlight_current"
+            android:layout_width="93dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_otheroption_backlight_current"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/textview_factory_otheroption_backlight_current_val"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+
+     <!-- For Backlight Voltage -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_otheroption_backlight_voltage"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:background="@drawable/button_state"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textview_factory_otheroption_backlight_voltage"
+            android:layout_width="93dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_otheroption_backlight_voltage"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/textview_factory_otheroption_backlight_voltage_val"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+    
+    <!-- For main PQ Version -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_otheroption_main_pq"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:background="@drawable/button_state"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textview_factory_otheroption_main_pq"
+            android:layout_width="100dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_otheroption_main_pq_version"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/textview_factory_otheroption_main_pq_val"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+    <!-- For Sub PQ Version -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_otheroption_sub_pq"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:background="@drawable/button_state"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textview_factory_otheroption_sub_pq"
+            android:layout_width="93dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_otheroption_sub_pq_version"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/textview_factory_otheroption_sub_pq_val"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+    
+</LinearLayout>

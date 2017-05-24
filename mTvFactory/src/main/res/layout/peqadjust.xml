@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="400dip"
+    android:layout_height="533dip"
+    android:background="#3280A0">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="47dip"
+        android:gravity="left"
+        android:text="@string/str_peq_adjust_text"
+        android:textColor="#ffffff"
+        android:textSize="17dip" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="333dip">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <!-- For FO1 Coarse -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_peq_fo1coarse"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_peq_fo1coarse"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_peq_fo1coarse"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_peq_fo1coarse_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_peq_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- For FO1 Fine -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_peq_fo1fine"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_peq_fo1fine"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_peq_fo1fine"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_peq_fo1fine_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_peq_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- For FO2 Coarse -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_peq_fo2coarse"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_peq_fo2coarse"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_peq_fo2coarse"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_peq_fo2coarse_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_peq_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- For FO2 Fine -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_peq_fo2fine"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_peq_fo2fine"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_peq_fo2fine"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_peq_fo2fine_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_peq_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- For FO3 Coarse -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_peq_fo3coarse"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_peq_fo3coarse"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_peq_fo3coarse"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_peq_fo3coarse_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_peq_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- For FO3 Fine -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_peq_fo3fine"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_peq_fo3fine"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_peq_fo3fine"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_peq_fo3fine_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_peq_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For FO4 Coarse -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_peq_fo4coarse"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_peq_fo4coarse"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_peq_fo4coarse"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_peq_fo4coarse_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_peq_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- For FO4 Fine -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_peq_fo4fine"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_peq_fo4fine"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_peq_fo4fine"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_peq_fo4fine_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_peq_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+
+            <!-- For FO5 Coarse -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_peq_fo5coarse"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_peq_fo5coarse"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_peq_fo5coarse"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_peq_fo5coarse_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_peq_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- For FO5 Fine -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_peq_fo5fine"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_peq_fo5fine"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_peq_fo5fine"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_peq_fo5fine_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_peq_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For Gain1 -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_peq_gain1"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_peq_gain1"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_peq_gain1"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_peq_gain1_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_peq_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- For Gain2 -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_peq_gain2"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_peq_gain2"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_peq_gain2"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_peq_gain2_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_peq_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- For Gain3 -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_peq_gain3"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_peq_gain3"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_peq_gain3"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_peq_gain3_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_peq_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For Gain4 -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_peq_gain4"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_peq_gain4"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_peq_gain4"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_peq_gain4_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_peq_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For Gain5 -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_peq_gain5"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_peq_gain5"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_peq_gain5"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_peq_gain5_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_peq_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For Q1 -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_peq_q1"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_peq_q1"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_peq_q1"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_peq_q1_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_peq_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- For Q2 -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_peq_q2"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_peq_q2"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_peq_q2"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_peq_q2_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_peq_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- For Q3 -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_peq_q3"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_peq_q3"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_peq_q3"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_peq_q3_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_peq_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For Q4 -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_peq_q4"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_peq_q4"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_peq_q4"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_peq_q4_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_peq_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For Q5 -->
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_peq_q5"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_peq_q5"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_peq_q5"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_peq_q5_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_peq_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

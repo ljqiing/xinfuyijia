@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="str_dvbt_info_array">
+
+        <!-- dvbt -->
+        <item name="str_textview_factory_otheroption_dvbt_u16Version">u16Version:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbt_u16DemodState">u16DemodState:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbt_SfoValue">SfoValue:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbt_TotalCfo">TotalCfo:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbt_u16ChannelLength">u16ChannelLength:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbt_u8Fft">u8Fft:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbt_u8Constel">u8Constel:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbt_u8Gi">u8Gi:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbt_u8HpCr">u8HpCr:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbt_u8LpCr">u8LpCr:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbt_u8Hiearchy">u8Hiearchy:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbt_u8Fd">u8Fd:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbt_u8ChLen">u8ChLen:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbt_u8SnrSel">u8SnrSel:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbt_u8PertoneNum">u8PertoneNum:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbt_u8DigAci">u8DigAci:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbt_u8FlagCi">u8FlagCi:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbt_u8TdCoef">u8TdCoef:&#160;&#160;%1$s</item>
+    </string-array>
+
+    <!-- dvbc -->
+    <string-array name="str_dvbc_info_array">
+        <item name="str_textview_factory_otheroption_dvbc_u16Version">u16Version:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbc_u16SymbolRate">u16SymbolRate:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbc_eQamMode">eQamMode:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbc_u32IFFreq">u32IFFreq:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbc_bSpecInv">bSpecInv:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbc_bSerialTS">bSerialTS:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbc_u8SarValue">u8SarValue:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbc_u32ChkScanTimeStart">u32ChkScanTimeStart:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbc_eLockStatus">eLockStatus:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbc_u16Strength">u16Strength:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbc_u16Quality">u16Quality:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbc_u32Intp">u32Intp:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbc_u32FcFs">u32FcFs:&#160;&#160;%1$s</item>
+        <item name="str_textview_factory_otheroption_dvbc_u16SymbolRateHal">u16SymbolRateHal:&#160;&#160;%1$s</item>
+    </string-array>
+
+    <string-array name="xvycc_array">
+        <item name="str_textview_factory_otheroption_rx">R X</item>
+        <item name="str_textview_factory_otheroption_ry">R Y</item>
+        <item name="str_textview_factory_otheroption_gx">G X</item>
+        <item name="str_textview_factory_otheroption_gy">G Y</item>
+        <item name="str_textview_factory_otheroption_bx">B X</item>
+        <item name="str_textview_factory_otheroption_by">B Y</item>
+        <item name="str_textview_factory_otheroption_wx">W X</item>
+        <item name="str_textview_factory_otheroption_wy">W Y</item>
+    </string-array>
+</resources>

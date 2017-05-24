@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="addconfirm">กำหนด</string>
+    <string name="addnotsuccess">เพิ่มทางลัดที่จะล้มเหลว</string>
+    <string name="addsuccess">เพิ่มทางลัดสู่ความสำเร็จ</string>
+    <string name="addtitle">ทางลัด</string>
+    <string name="allapp">การใช้งานทั้งหมด</string>
+    <string name="allapp_name">การใช้งานทั้งหมด</string>
+    <string name="app_name">MstarLauncher</string>
+    <string name="browser">เบราว์เซอร์</string>
+    <string name="delcancel">ยกเลิก</string>
+    <string name="delconfirm">กำหนด</string>
+    <string name="delmessage">ให้ยืนยันการลบทางลัด</string>
+    <string name="deltitle">ทางลัด</string>
+    <string name="gonggongxinxi">โทรทัศน์แนะนำ</string>
+    <string name="hello">Hello World, MstarLauncher!</string>
+    <string name="localmm">เล่นท้องถิ่น</string>
+    <string name="setting">จัดตั้งขึ้น</string>
+    <string name="store">มอลล์แอพลิเคชัน</string>
+    <string name="tianqi">สภาพอากาศ</string>
+    <string name="tvsource">โทรทัศน์</string>
+    <string name="yingyongtuijian">โปรแกรมยอดนิยม</string>
+    <string name="zixun">ข้อมูล</string>
+</resources>

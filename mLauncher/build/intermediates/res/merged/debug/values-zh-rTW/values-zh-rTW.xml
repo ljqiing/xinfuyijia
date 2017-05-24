@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="addconfirm">確定</string>
+    <string name="addnotsuccess">快捷方式添加失敗</string>
+    <string name="addsuccess">快捷方式添加成功</string>
+    <string name="addtitle">快捷方式</string>
+    <string name="all_page_is_full">所有的頁面已經滿了!</string>
+    <string name="allapp">全部應用</string>
+    <string name="allapp_name">全部應用</string>
+    <string name="app_name">MstarLauncher</string>
+    <string name="browser">瀏覽器</string>
+    <string name="delcancel">取消</string>
+    <string name="delconfirm">確定</string>
+    <string name="delmessage">確認刪除快捷方式</string>
+    <string name="deltitle">快捷方式</string>
+    <string name="gonggongxinxi">影視推薦</string>
+    <string name="hello">Hello World, MstarLauncher!</string>
+    <string name="localmm">本地播放</string>
+    <string name="movemode">現在是移動模式</string>
+    <string name="normalmode">現在是正常模式</string>
+    <string name="package_not_find_ERROR_1">安裝包未找到</string>
+    <string name="package_not_find_ERROR_2">安裝包未找到，獲取數據失敗!</string>
+    <string name="page"> 頁面</string>
+    <string name="setting">設置</string>
+    <string name="store">應用商城</string>
+    <string name="the_app_have_add">應用已經添加到   </string>
+    <string name="the_page_have_exist">這個APP已存在于頁面:</string>
+    <string name="this_page_no_icon">這個頁面沒有圖標了!</string>
+    <string name="tianqi">天氣</string>
+    <string name="tvsource">電視</string>
+    <string name="wallpaper">壁紙</string>
+    <string name="wallpaper_instructions">使用圖片來設置壁紙</string>
+    <string name="yingyongtuijian">熱門應用</string>
+    <string name="zixun">資訊</string>
+</resources>

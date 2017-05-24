@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dip"
+    android:layout_height="533dip"
+    android:background="#3280A0"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textview_factory_dialoginfo_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="67dip"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="17dip" />
+
+    <LinearLayout
+        android:layout_marginTop="30dip"
+        android:id="@+id/linearlayout_factory_dialoginfo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="left"
+        android:orientation="vertical" >
+
+        <mstar.tvsetting.factory.ui.designmenu.InfoTextView
+            android:id="@+id/textview_dvbt_dvbc_0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <mstar.tvsetting.factory.ui.designmenu.InfoTextView
+            android:id="@+id/textview_dvbt_dvbc_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <mstar.tvsetting.factory.ui.designmenu.InfoTextView
+            android:id="@+id/textview_dvbt_dvbc_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <mstar.tvsetting.factory.ui.designmenu.InfoTextView
+            android:id="@+id/textview_dvbt_dvbc_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <mstar.tvsetting.factory.ui.designmenu.InfoTextView
+            android:id="@+id/textview_dvbt_dvbc_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <mstar.tvsetting.factory.ui.designmenu.InfoTextView
+            android:id="@+id/textview_dvbt_dvbc_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <mstar.tvsetting.factory.ui.designmenu.InfoTextView
+            android:id="@+id/textview_dvbt_dvbc_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <mstar.tvsetting.factory.ui.designmenu.InfoTextView
+            android:id="@+id/textview_dvbt_dvbc_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <mstar.tvsetting.factory.ui.designmenu.InfoTextView
+            android:id="@+id/textview_dvbt_dvbc_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <mstar.tvsetting.factory.ui.designmenu.InfoTextView
+            android:id="@+id/textview_dvbt_dvbc_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <mstar.tvsetting.factory.ui.designmenu.InfoTextView
+            android:id="@+id/textview_dvbt_dvbc_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <mstar.tvsetting.factory.ui.designmenu.InfoTextView
+            android:id="@+id/textview_dvbt_dvbc_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <mstar.tvsetting.factory.ui.designmenu.InfoTextView
+            android:id="@+id/textview_dvbt_dvbc_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <mstar.tvsetting.factory.ui.designmenu.InfoTextView
+            android:id="@+id/textview_dvbt_dvbc_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <mstar.tvsetting.factory.ui.designmenu.InfoTextView
+            android:id="@+id/textview_dvbt_dvbc_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <mstar.tvsetting.factory.ui.designmenu.InfoTextView
+            android:id="@+id/textview_dvbt_dvbc_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <mstar.tvsetting.factory.ui.designmenu.InfoTextView
+            android:id="@+id/textview_dvbt_dvbc_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <mstar.tvsetting.factory.ui.designmenu.InfoTextView
+            android:id="@+id/textview_dvbt_dvbc_17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

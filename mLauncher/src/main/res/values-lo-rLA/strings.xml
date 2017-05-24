@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="hello">Hello World, MstarLauncher!</string>
+    <string name="app_name">MstarLauncher</string>
+    <string name="allapp_name">AllApps</string>
+    <string name="allapp">Applications</string>
+    <string name="store">Store</string>
+    <string name="browser">Browser</string>
+    <string name="setting">setting</string>
+    <string name="tvsource">TV</string>
+    <string name="localmm">LocalMM</string>
+    <string name="zixun">news</string>
+    <string name="tianqi">weather</string>
+    <string name="yingyongtuijian">Hot application</string>
+    <string name="gonggongxinxi">movies</string>
+    <string name="addtitle">Shortcut</string>
+    <string name="addsuccess">This Shortcut have added success</string>
+    <string name="addnotsuccess">This shortcut added fail</string>
+    <string name="addconfirm">ok</string>
+    <string name="deltitle">Shortcut</string>
+    <string name="delmessage">Confirm to delete the Shortcut</string>
+    <string name="delconfirm">ok</string>
+    <string name="delcancel">cancel</string>
+
+</resources>

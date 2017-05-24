@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dip"
+    android:layout_height="533dip"
+    android:background="#3280A0"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="47dp"
+        android:gravity="left"
+        android:text="@string/str_other_option_text"
+        android:textColor="#ffffff"
+        android:textSize="17dp" />
+
+    <!-- For set video mute color -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_otheroptionfactory_video_mute_color"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:background="@drawable/button_state"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="133dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_set_mute_color"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/linearlayout_factory_otheroptionfactory_video_mute_color_val"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+
+    <!-- For test pattern -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_otheroptionfactory_testpattern"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:background="@drawable/button_state"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textview_factory_otheroptionfactory_testpattern"
+            android:layout_width="133dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_otheroption_testpattern"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/textview_factory_otheroptionfactory_testpattern_val"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:gravity="center"
+            android:text="@string/str_textview_factory_otheroption_text_off"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+    <!-- For initial channel -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_otheroptionfactory_initialfunction"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:background="@drawable/button_state"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textview_factory_otheroptionfactory_initialfunction"
+            android:layout_width="133dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_otheroption_initialfunction"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/textview_factory_otheroptionfactory_initialfunction_val"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:text="@string/str_textview_factory_otheroption_initialfunction_val"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+    <!-- For initial channel -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_otheroptionfactory_burnInRGB"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:background="@drawable/button_state"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textview_factory_otheroptionfactory_burnInRGB"
+            android:layout_width="133dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_otheroption_burnInRGB"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/textview_factory_otheroptionfactory_burnInRGB_val"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:text="@string/str_textview_factory_otheroption_burnInRGB_val"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_otheroptionfactory_export"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:background="@drawable/button_state"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textview_factory_otheroptionfactory_export"
+            android:layout_width="133dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_tvconfig_file_export"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_otheroptionfactory_import"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:background="@drawable/button_state"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textview_factory_otheroptionfactory_import"
+            android:layout_width="133dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_tvconfig_file_import"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_otheroptionfactory_export_panel"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:background="@drawable/button_state"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textview_factory_otheroptionfactory_export_panel"
+            android:layout_width="133dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_tvconfig_file_export_panel"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_otheroptionfactory_import_panel"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:background="@drawable/button_state"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textview_factory_otheroptionfactory_import_panel"
+            android:layout_width="133dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_tvconfig_file_import_panel"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+</LinearLayout>

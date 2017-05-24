@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="400dip"
+    android:layout_height="533dip"
+    android:background="#3280A0">
+    <TextView
+        android:layout_width="133dip"
+        android:layout_height="33dip"
+        android:gravity="left|center_vertical"
+        android:text="@string/str_text_adc_adjust"
+        android:textColor="#ffffff"
+        android:textSize="17dip" />
+    <!-- For Source -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_adc_source"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/button_state">
+        <TextView
+            android:id="@+id/textview_factory_adc_source"
+            android:layout_width="133dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_adc_source"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <TextView
+            android:id="@+id/textview_factory_adc_source_val"
+            android:layout_width="133dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_textview_factory_adc_source_val"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+    <!-- R Gain -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_adc_rgain"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/button_state">
+        <TextView
+            android:id="@+id/textview_factory_adc_rgain"
+            android:layout_width="93dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_adc_rgain"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <TextView
+            android:id="@+id/textview_factory_adc_rgain_val"
+            android:layout_width="33dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_textview_factory_adc_rgain_val"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <!-- <ProgressBar android:id="@+id/progressbar_facroty_adc_rgain"
+            style="?android:attr/progressBarStyleHorizontal" android:max="2048" android:progress="0"
+            android:layout_width="200px" android:layout_height="8px" android:layout_marginTop="23px"
+            android:layout_marginLeft="10px" android:layout_below="@+id/progressbar_factory_adc_rgainbelow"
+            android:progressDrawable="@drawable/progressbar" /> -->
+    </LinearLayout>
+    <!-- G Gain -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_adc_ggain"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/button_state">
+        <TextView
+            android:id="@+id/textview_factory_adc_ggain"
+            android:layout_width="93dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_adc_ggain"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <TextView
+            android:id="@+id/textview_factory_adc_ggain_val"
+            android:layout_width="33dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_textview_factory_adc_ggain_val"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <!-- <ProgressBar android:id="@+id/progressbar_facroty_adc_ggain"
+            style="?android:attr/progressBarStyleHorizontal" android:max="2048" android:progress="0"
+            android:layout_width="200px" android:layout_height="8px" android:layout_marginTop="23px"
+            android:layout_marginLeft="10px" android:layout_below="@+id/progressbar_factory_adc_ggainbelow"
+            android:progressDrawable="@drawable/progressbar" /> -->
+    </LinearLayout>
+    <!-- B Gain -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_adc_bgain"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/button_state">
+        <TextView
+            android:id="@+id/textview_factory_adc_bgain"
+            android:layout_width="93dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_adc_bgain"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <TextView
+            android:id="@+id/textview_factory_adc_bgain_val"
+            android:layout_width="33dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_textview_factory_adc_bgain_val"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <!-- <ProgressBar android:id="@+id/progressbar_facroty_adc_bgain"
+            style="?android:attr/progressBarStyleHorizontal" android:max="2048" android:progress="0"
+            android:layout_width="200px" android:layout_height="8px" android:layout_marginTop="23px"
+            android:layout_marginLeft="10px" android:layout_below="@+id/progressbar_factory_adc_bgainbelow"
+            android:progressDrawable="@drawable/progressbar" /> -->
+    </LinearLayout>
+    <!-- R Offset -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_adc_roffset"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/button_state">
+        <TextView
+            android:id="@+id/textview_factory_adc_roffset"
+            android:layout_width="93dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_adc_roffset"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <TextView
+            android:id="@+id/textview_factory_adc_roffset_val"
+            android:layout_width="33dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_textview_factory_adc_roffset_val"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <!-- <ProgressBar android:id="@+id/progressbar_facroty_adc_roffset"
+            style="?android:attr/progressBarStyleHorizontal" android:max="1024" android:progress="0"
+            android:layout_width="200px" android:layout_height="8px" android:layout_marginTop="23px"
+            android:layout_marginLeft="10px" android:layout_below="@+id/progressbar_factory_adc_roffsetbelow"
+            android:progressDrawable="@drawable/progressbar" /> -->
+    </LinearLayout>
+    <!-- G Offset -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_adc_goffset"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/button_state">
+        <TextView
+            android:id="@+id/textview_factory_adc_goffset"
+            android:layout_width="93dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_adc_goffset"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <TextView
+            android:id="@+id/textview_factory_adc_goffset_val"
+            android:layout_width="33dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_textview_factory_adc_goffset_val"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <!-- <ProgressBar android:id="@+id/progressbar_facroty_adc_goffset"
+            style="?android:attr/progressBarStyleHorizontal" android:max="64" android:progress="0"
+            android:layout_width="200px" android:layout_height="8px" android:layout_marginTop="23px"
+            android:layout_marginLeft="10px" android:layout_below="@+id/progressbar_factory_adc_goffsetbelow"
+            android:progressDrawable="@drawable/progressbar" /> -->
+    </LinearLayout>
+    <!-- B offset -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_adc_boffset"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/button_state">
+        <TextView
+            android:id="@+id/textview_factory_adc_boffset"
+            android:layout_width="93dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_adc_boffset"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <TextView
+            android:id="@+id/textview_factory_adc_boffset_val"
+            android:layout_width="33dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_textview_factory_adc_boffset_val"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <!-- <ProgressBar android:id="@+id/progressbar_facroty_adc_boffset"
+            style="?android:attr/progressBarStyleHorizontal" android:max="1024" android:progress="0"
+            android:layout_width="200px" android:layout_height="8px" android:layout_marginTop="23px"
+            android:layout_marginLeft="10px" android:layout_below="@+id/progressbar_factory_adc_boffsetbelow"
+            android:progressDrawable="@drawable/progressbar" /> -->
+    </LinearLayout>
+    <!-- For phase -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_adc_phase"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/button_state">
+        <TextView
+            android:id="@+id/textview_factory_adc_phaset"
+            android:layout_width="93dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_adc_phase"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <TextView
+            android:id="@+id/textview_factory_adc_phase_val"
+            android:layout_width="33dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_textview_factory_adc_phase_val"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <!-- <ProgressBar android:id="@+id/progressbar_facroty_adc_phase"
+            style="?android:attr/progressBarStyleHorizontal" android:max="100" android:progress="0"
+            android:layout_width="200px" android:layout_height="8px" android:layout_marginTop="23px"
+            android:layout_marginLeft="10px" android:layout_below="@+id/progressbar_factory_adc_phasebelow"
+            android:progressDrawable="@drawable/progressbar" /> -->
+        <!-- <ProgressBar android:id="@+id/progressbar_facroty_adc_phase"
+            style="?android:attr/progressBarStyleHorizontal" android:max="100" android:progress="0"
+            android:layout_width="200px" android:layout_height="8px" android:layout_marginTop="23px"
+            android:layout_marginLeft="10px" android:layout_below="@+id/progressbar_factory_adc_phasebelow"
+            android:progressDrawable="@drawable/progressbar" /> -->
+    </LinearLayout>
+    <!-- For Auto Adjust -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_adc_autoadjust"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:focusable="true"
+        android:gravity="center"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/button_state">
+        <TextView
+            android:id="@+id/textview_factory_adc_autoadjust"
+            android:layout_width="133dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_adc_autoadjust"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <!-- <ImageView android:id="@+id/textview_factory_adc_autoadjust_val"
+            /> <TextView android:id="@+id/textview_factory_adc_autoadjust_val" android:layout_width="200px"
+            android:layout_height="33dip" android:gravity="left|center_vertical" android:textColor="#ffffff"
+            android:textSize="13dip" /> -->
+    </LinearLayout>
+</LinearLayout>

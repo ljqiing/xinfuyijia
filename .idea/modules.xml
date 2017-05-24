@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/XinFuYiJa.iml" filepath="$PROJECT_DIR$/XinFuYiJa.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mLauncher/mLauncher.iml" filepath="$PROJECT_DIR$/mLauncher/mLauncher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mTvFactory/mTvFactory.iml" filepath="$PROJECT_DIR$/mTvFactory/mTvFactory.iml" />
     </modules>
   </component>
 </project>

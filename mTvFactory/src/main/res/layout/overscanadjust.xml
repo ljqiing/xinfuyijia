@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="400dip"
+    android:layout_height="533dip"
+    android:background="#3280A0">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:gravity="left|center_vertical"
+        android:text="@string/str_factory_overscan_adjust_text"
+        android:textColor="#ffffff"
+        android:textSize="17dip" />
+    <!-- For Source -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_overscan_source"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/button_state">
+        <TextView
+            android:id="@+id/textview_factory_overscan_source"
+            android:layout_width="133dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_overscan_source"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <TextView
+            android:id="@+id/textview_factory_overscan_source_val"
+            android:layout_width="133dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_textview_factory_overscan_source_val"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+    <!-- For H Size -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_overscan_hsize"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/button_state">
+        <TextView
+            android:id="@+id/textview_factory_overscan_hsize"
+            android:layout_width="93dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_overscan_hsize"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <TextView
+            android:id="@+id/textview_factory_overscan_hsize_val"
+            android:layout_width="33dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_textview_factory_overscan_default_val"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <ProgressBar
+            android:id="@+id/progressbar_facroty_overscan_hsize"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:max="100"
+            android:progress="0"
+            android:layout_width="133dip"
+            android:layout_height="5dip"
+            android:layout_marginTop="15dip"
+            android:layout_marginLeft="7dip"
+            android:layout_below="@+id/progressbar_factory_overscan_hsizebelow"
+            android:progressDrawable="@drawable/progressbar" />
+    </LinearLayout>
+    <!-- For H Position -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_overscan_hposition"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/button_state">
+        <TextView
+            android:id="@+id/textview_factory_overscan_hposition"
+            android:layout_width="93dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_overscan_hposition"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <TextView
+            android:id="@+id/textview_factory_overscan_hposition_val"
+            android:layout_width="33dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_textview_factory_overscan_default_val"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <ProgressBar
+            android:id="@+id/progressbar_facroty_overscan_hposition"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:max="100"
+            android:progress="0"
+            android:layout_width="133dip"
+            android:layout_height="5dip"
+            android:layout_marginTop="15dip"
+            android:layout_marginLeft="7dip"
+            android:layout_below="@+id/progressbar_factory_overscan_hpositionbelow"
+            android:progressDrawable="@drawable/progressbar" />
+    </LinearLayout>
+    <!-- For V Size -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_overscan_vsize"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/button_state">
+        <TextView
+            android:id="@+id/textview_factory_overscan_vsize"
+            android:layout_width="93dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_overscan_vsize"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <TextView
+            android:id="@+id/textview_factory_overscan_vsize_val"
+            android:layout_width="33dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_textview_factory_overscan_default_val"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <ProgressBar
+            android:id="@+id/progressbar_facroty_overscan_vsize"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:max="100"
+            android:progress="0"
+            android:layout_width="133dip"
+            android:layout_height="5dip"
+            android:layout_marginTop="15dip"
+            android:layout_marginLeft="7dip"
+            android:layout_below="@+id/progressbar_factory_overscan_vsizebelow"
+            android:progressDrawable="@drawable/progressbar" />
+    </LinearLayout>
+    <!-- For V Position -->
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_overscan_vposition"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/button_state">
+        <TextView
+            android:id="@+id/textview_factory_overscan_vposition"
+            android:layout_width="93dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_overscan_vposition"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <TextView
+            android:id="@+id/textview_factory_overscan_vposition_val"
+            android:layout_width="33dip"
+            android:layout_height="33dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_textview_factory_overscan_default_val"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <ProgressBar
+            android:id="@+id/progressbar_facroty_overscan_vposition"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:max="100"
+            android:progress="0"
+            android:layout_width="133dip"
+            android:layout_height="5dip"
+            android:layout_marginTop="15dip"
+            android:layout_marginLeft="7dip"
+            android:layout_below="@+id/progressbar_factory_overscan_vpositionbelow"
+            android:progressDrawable="@drawable/progressbar" />
+    </LinearLayout>
+</LinearLayout>

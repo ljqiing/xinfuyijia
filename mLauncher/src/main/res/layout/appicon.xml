@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="60dp"
+    android:layout_height="75dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="3.75dp" >
+
+    <ImageView
+        android:id="@+id/appicon"
+        android:layout_width="52.5dp"
+        android:layout_height="52.5dp"
+        android:layout_gravity="center_horizontal|top"
+        android:contentDescription="@string/contentdes"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_bg" />
+
+    <TextView
+        android:id="@+id/apptitle"
+        android:layout_width="55.5dp"
+        android:layout_height="37.5dp"
+        android:ellipsize="marquee"
+        android:gravity="center_horizontal|center_vertical"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:textColor="#FFFF"
+        android:textSize="12dp" />
+
+</LinearLayout>

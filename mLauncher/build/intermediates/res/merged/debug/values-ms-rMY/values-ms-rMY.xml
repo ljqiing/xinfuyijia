@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="addconfirm">menentukan</string>
+    <string name="addnotsuccess">Tambah jalan pintas untuk gagal</string>
+    <string name="addsuccess">Tambah jalan pintas untuk berjaya</string>
+    <string name="addtitle">pintasan</string>
+    <string name="allapp">Semua permohonan</string>
+    <string name="allapp_name">Semua permohonan</string>
+    <string name="app_name">MstarLauncher</string>
+    <string name="browser">pelayar</string>
+    <string name="delcancel">dibatalkan</string>
+    <string name="delconfirm">menentukan</string>
+    <string name="delmessage">Untuk mengesahkan penyingkiran jalan pintas</string>
+    <string name="deltitle">pintasan</string>
+    <string name="gonggongxinxi">televisyen mengesyorkan</string>
+    <string name="hello">Hello World, MstarLauncher!</string>
+    <string name="localmm">main balik tempatan</string>
+    <string name="setting">menubuhkan</string>
+    <string name="store">Mall permohonan</string>
+    <string name="tianqi">cuaca</string>
+    <string name="tvsource">TV</string>
+    <string name="yingyongtuijian">aplikasi popular</string>
+    <string name="zixun">maklumat</string>
+</resources>

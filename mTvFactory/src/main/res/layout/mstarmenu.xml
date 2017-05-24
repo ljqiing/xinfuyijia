@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="400dp"
+    android:layout_height="533dp">
+    <ViewFlipper
+        android:id="@+id/mstarfactory_view_flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:persistentDrawingCache="animation">
+        <include layout="@layout/mstarfactorymenu" />
+        <include layout="@layout/adcadjust" />
+        <include layout="@layout/wbadjust" />
+        <include layout="@layout/overscanadjust" />
+        <include layout="@layout/otheroptionforfactory" />
+        <include layout="@layout/info" />
+    </ViewFlipper>
+</LinearLayout>

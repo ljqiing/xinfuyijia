@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="600dp"
+    android:background="#3280A0"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="47dp"
+        android:gravity="left"
+        android:text="@string/str_factory_menu"
+        android:textColor="#ffffff"
+        android:textSize="17dp" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout_mstarfactory_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        <!-- For ADC Adjust -->
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_adc"
+            android:layout_width="fill_parent"
+            android:layout_height="33dp"
+            android:background="@drawable/button_state"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textview_factory_adc"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/str_factory_adc"
+                android:textColor="#ffffff"
+                android:textSize="13dp" />
+        </LinearLayout>
+        <!-- For W/B Adjust -->
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_whitebalance"
+            android:layout_width="fill_parent"
+            android:layout_height="33dp"
+            android:background="@drawable/button_state"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textview_factory_whitebalance"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/str_factory_whitebalance"
+                android:textColor="#ffffff"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+        <!-- For Over Scan -->
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_overscan"
+            android:layout_width="fill_parent"
+            android:layout_height="33dp"
+            android:background="@drawable/button_state"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textview_factory_overscan"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/str_factory_overscan"
+                android:textColor="#ffffff"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+        <!-- For OtherOption -->
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_otheroption"
+            android:layout_width="fill_parent"
+            android:layout_height="33dp"
+            android:background="@drawable/button_state"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textview_factory_otheroption"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/str_factory_otheroption"
+                android:textColor="#ffffff"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_info"
+            android:layout_width="fill_parent"
+            android:layout_height="33dp"
+            android:background="@drawable/button_state"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/str_Info_title"
+                android:textColor="#ffffff"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+        <!-- qwh add For MAC Write -->
+         
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_macwrite"
+            android:layout_width="fill_parent"
+            android:layout_height="33dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_state"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textview_factory_macwrite"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/str_factory_mac_write"
+                android:textColor="#ffffff"
+                android:textSize="13dp" />
+        </LinearLayout>
+        
+        <!-- qwh add For MAC Write end-->
+
+        <!-- qwh add For MAC display -->
+         
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_macdisplay"
+            android:layout_width="fill_parent"
+            android:layout_height="33dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_state"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textview_factory_macdisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/str_factory_mac_display"
+                android:textColor="#ffffff"
+                android:textSize="13dp" />
+            <TextView
+            	android:id="@+id/textview_factory_macdisplay_val"
+            	android:layout_width="wrap_content"
+           	 	android:layout_height="33dip"
+            	android:text="@string/str_textview_factory_macdisplay_val"
+            	android:layout_marginLeft="40dp"
+            	android:textColor="#ffffff"
+            	android:textSize="13dip" />
+        </LinearLayout>
+        
+        <!-- qwh add For MAC display end-->
+
+        <!-- qwh add For MAC number ID display -->
+         
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_macIDdisplay"
+            android:layout_width="fill_parent"
+            android:layout_height="33dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_state"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textview_factory_macIDdisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/str_factory_macIDdisplay"
+                android:textColor="#ffffff"
+                android:textSize="13dp" />
+            <TextView
+            	android:id="@+id/textview_factory_macIDdisplay_val"
+            	android:layout_width="wrap_content"
+           	 	android:layout_height="33dip"
+            	android:text="@string/str_textview_factory_macIDdisplay_val"
+            	android:layout_marginLeft="40dp"
+            	android:textColor="#ffffff"
+            	android:textSize="13dip" />
+        </LinearLayout>
+        
+        <!-- qwh add For MAC number ID display end-->
+        
+    </LinearLayout>
+
+</LinearLayout>

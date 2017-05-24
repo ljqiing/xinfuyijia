@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    <MStar Software>
+    ******************************************************************************
+     MStar Software
+     Copyright (c) 2010 - 2014 MStar Semiconductor, Inc. All rights reserved.
+     All software, firmware and related documentation herein ("MStar Software") are
+     intellectual property of MStar Semiconductor, Inc. ("MStar") and protected by
+     law, including, but not limited to, copyright law and international treaties.
+     Any use, modification, reproduction, retransmission, or republication of all
+     or part of MStar Software is expressly prohibited, unless prior written
+     permission has been granted by MStar.
+
+     By accessing, browsing and/or using MStar Software, you acknowledge that you
+     have read, understood, and agree, to be bound by below terms ("Terms") and to
+     comply with all applicable laws and regulations:
+
+     1. MStar shall retain any and all right, ownership and interest to MStar
+        Software and any modification/derivatives thereof.
+        No right, ownership, or interest to MStar Software and any
+        modification/derivatives thereof is transferred to you under Terms.
+
+     2. You understand that MStar Software might include, incorporate or be
+        supplied together with third party's software and the use of MStar
+        Software may require additional licenses from third parties.
+        Therefore, you hereby agree it is your sole responsibility to separately
+        obtain any and all third party right and license necessary for your use of
+        such third party's software.
+
+     3. MStar Software and any modification/derivatives thereof shall be deemed as
+        MStar's confidential information and you agree to keep MStar's
+        confidential information in strictest confidence and not disclose to any
+        third party.
+
+     4. MStar Software is provided on an "AS IS" basis without warranties of any
+        kind. Any warranties are hereby expressly disclaimed by MStar, including
+        without limitation, any warranties of merchantability, non-infringement of
+        intellectual property rights, fitness for a particular purpose, error free
+        and in conformity with any international standard.  You agree to waive any
+        claim against MStar for any loss, damage, cost or expense that you may
+        incur related to your use of MStar Software.
+        In no event shall MStar be liable for any direct, indirect, incidental or
+        consequential damages, including without limitation, lost of profit or
+        revenues, lost or damage of data, and unauthorized system use.
+        You agree that this Section 4 shall still apply without being affected
+        even if MStar Software has been modified by MStar in accordance with your
+        request or instruction for your use, except otherwise agreed by both
+        parties in writing.
+
+     5. If requested, MStar may from time to time provide technical supports or
+        services in relation with MStar Software to you for your use of
+        MStar Software in conjunction with your or your customer's product
+        ("Services").
+        You understand and agree that, except otherwise agreed by both parties in
+        writing, Services are provided on an "AS IS" basis and the warranty
+        disclaimer set forth in Section 4 above shall apply.
+
+     6. Nothing contained herein shall be construed as by implication, estoppels
+        or otherwise:
+        (a) conferring any license or right to use MStar name, trademark, service
+            mark, symbol or any other identification;
+        (b) obligating MStar or any of its affiliates to furnish any person,
+            including without limitation, you and your customers, any assistance
+            of any kind whatsoever, or any information; or
+        (c) conferring any license or right under any intellectual property right.
+
+     7. These terms shall be governed by and construed in accordance with the laws
+        of Taiwan, R.O.C., excluding its conflict of law rules.
+        Any and all dispute arising out hereof or related hereto shall be finally
+        settled by arbitration referred to the Chinese Arbitration Association,
+        Taipei in accordance with the ROC Arbitration Law and the Arbitration
+        Rules of the Association by three (3) arbitrators appointed in accordance
+        with the said Rules.
+        The place of arbitration shall be in Taipei, Taiwan and the language shall
+        be English.
+        The arbitration award shall be final and binding to both parties.
+
+    ******************************************************************************
+    <MStar Software>
+-->
+
+<resources>
+
+    <string name="app_name">Factory Menu</string>
+
+    <!-- For ADC Adjust -->
+
+    <string name="str_factory_adc">ADC Adjust</string>
+    <string name="str_factory_adc_source">Source</string>
+    <string name="str_factory_adc_rgain">R Gain</string>
+    <string name="str_factory_adc_ggain">G Gain</string>
+    <string name="str_factory_adc_bgain">B Gain</string>
+    <string name="str_factory_adc_roffset">R Offset</string>
+    <string name="str_factory_adc_goffset">G Offset</string>
+    <string name="str_factory_adc_boffset">B Offset</string>
+    <string name="str_factory_adc_phase">phase</string>
+    <string name="str_factory_adc_autoadjust">Auto Tune</string>
+    <string name="str_factory_adc_autoadjust_val">Please Wait!</string>
+    <string name="str_factory_adc_autoadjust_ok">success</string>
+    <string name="str_factory_adc_autoadjust_failed">failed</string>
+    <string name="str_factory_adc_autoadjust_timing_mode_err">timing mode select error</string>
+    <string name="str_text_adc_adjust">ADC Adjust</string>
+    <string name="str_textview_factory_adc_source_val">VGA</string>
+    <string name="str_textview_factory_adc_rgain_val">50</string>
+    <string name="str_textview_factory_adc_ggain_val">50</string>
+    <string name="str_textview_factory_adc_bgain_val">50</string>
+    <string name="str_textview_factory_adc_roffset_val">50</string>
+    <string name="str_textview_factory_adc_goffset_val">50</string>
+    <string name="str_textview_factory_adc_boffset_val">50</string>
+    <string name="str_textview_factory_adc_phase_val">50</string>
+
+    <!-- For dialog menu -->
+    <string name="str_textview_factory_dialogmenu_title">Are You Sure Upgrade?</string>
+    <string name="str_textview_factory_dialogmenu_confirm">Confirm</string>
+    <string name="str_textview_factory_dialogmenu_cancel">Cancel</string>
+    <string name="str_design_menu">Design Menu</string>
+    <string name="str_factory_menu">Factory Menu</string>
+
+    <!-- For W/B Adjust -->
+
+    <string name="str_factory_whitebalance">White Balance</string>
+    <string name="str_factory_wbadjust_source">Source</string>
+    <string name="str_factory_wbadjust_rgain">R Gain</string>
+    <string name="str_factory_wbadjust_ggain">G Gain</string>
+    <string name="str_factory_wbadjust_bgain">B Gain</string>
+    <string name="str_factory_wbadjust_roffset">R Offset</string>
+    <string name="str_factory_wbadjust_goffset">G Offset</string>
+    <string name="str_factory_wbadjust_boffset">B Offset</string>
+    <string name="str_factory_wbadjust_autoadjust">Auto Adjust</string>
+    <string name="str_factory_wbadjust_colortemp">Color Temperature</string>
+    <string name="str_wb_adjust_text">W/B Adjust</string>
+    <string name="str_textview_factory_wbadjust_source_val">VGA</string>
+    <string name="str_textview_factory_wbadjust_colortemp_val">VGA</string>
+    <string name="str_textview_factory_wbadjust_default_val">50</string>
+
+	<!--qwh add For mac write-->
+    <string name="str_factory_mac_write">MAC Write</string>
+
+    <!--qwh add For mac display-->
+    <string name="str_factory_mac_display">MAC Address :</string>
+    <string name="str_textview_factory_macdisplay_val">00:00:00:00:00:00</string>
+    <string name="str_factory_macIDdisplay">The current MAC address ID is :</string>
+    <string name="str_textview_factory_macIDdisplay_val">0.bin</string>
+    <!-- For Picture Mode -->
+    <string name="str_factory_picturemode">Picture Mode</string>
+    <string name="str_factory_picmode_picmode">Picture Mode</string>
+    <string name="str_factory_picmode_brightness">Brightness</string>
+    <string name="str_factory_picmode_contrast">Contrast</string>
+    <string name="str_factory_picmode_saturation">Saturation</string>
+    <string name="str_factory_picmode_hue">Hue</string>
+    <string name="str_factory_picmode_sharpness">Sharpness</string>
+    <string name="str_factory_picmode_backlight">Backlight</string>
+    <string name="str_picture_mode_text">Picture Mode</string>
+    <string name="str_textview_factory_picmode_picmode_val">VGA</string>
+    <string name="str_textview_factory_picmode_default_val">50</string>
+    <string-array name="str_arr_pic_mode_vals">
+        <item>Lightness</item>
+        <item>Standard</item>
+        <item>Soft</item>
+        <item>User</item>
+        <item>Game</item>
+        <item>Auto</item>
+        <item>PC</item>
+        <item>Vivid</item>
+        <item>Natural</item>
+        <item>Sports</item>
+    </string-array>
+
+    <!-- For Non-Standard -->
+
+    <string name="str_factory_non_standard">Non-standard options</string>
+    <string name="str_factory_nonstandard_vif">VIF  (click me)</string>
+    <string name="str_factory_nonstandard_vd">VD  (click me)</string>
+    <string name="str_factory_nonstandard_audio">AUDIO  (click me)</string>
+    <string name="str_factory_nonstandard_viftop">VIF_TOP</string>
+    <string name="str_factory_nonstandard_vifvgamaximum">VIF_VGA_MAXIMUM</string>
+    <string name="str_factory_nonstandard_vifcpkp">VIF_CR_KP</string>
+    <string name="str_factory_nonstandard_vifcpki">VIF_CR_KI</string>
+    <string name="str_factory_nonstandard_vifasiasignaloption">VIF_ASIA_SIGNAL_OPTION</string>
+    <string name="str_factory_nonstandard_vifcpkpkiadjust">VIF_CR_KP_KI_ADJUST</string>
+    <string name="str_factory_nonstandard_vifovermodulation">VIF_OVER_MODULATION</string>
+    <string name="str_factory_nonstandard_vifclampgain">VIF_CLAMPGAIN_GAIN_OV_NEGATIVE</string>
+    <string name="str_factory_nonstandard_chinadescrambler">CHINA_DESCRAMBLER_BOX</string>
+    <string name="str_factory_nonstandard_chinadescrambler_delay">China_DES_BOX_Delay</string>
+    <string name="str_factory_nonstandard_delay">Delay</string>
+    <string name="str_factory_nonstandard_vifcrthr">VIF_CR_THR</string>
+    <string name="str_factory_nonstandard_vifversion">VIF_VERSION</string>
+    <string name="str_factory_nonstandard_vifagcref">VIF_AGC_REF</string>
+    <string name="str_factory_nonstandard_gaindistributionthr">GAIN_DISTRIBUTION_THR</string>
+    <string name="str_factory_nonstandard_afecd4">AFEC_D4</string>
+    <string name="str_factory_nonstandard_aefcd5">AFEC_D5[2]</string>
+    <string name="str_factory_nonstandard_aefcd8">AFEC_D8[3:0]</string>
+    <string name="str_factory_nonstandard_aefcd9">AFEC_D9[0]</string>
+    <string name="str_factory_nonstandard_aefcd7high">AFEC_D7_HIGH_BOUN</string>
+    <string name="str_factory_nonstandard_aefcd7">AFEC_D7_LOW_BOUN</string>
+    <string name="str_factory_nonstandard_aefca0">AFEC_A0</string>
+    <string name="str_factory_nonstandard_aefca1">AFEC_A1</string>
+    <string name="str_factory_nonstandard_aefc66">AFEC_66[7:6]</string>
+    <string name="str_factory_nonstandard_aefc6e">AFEC_6E[7:4]</string>
+    <string name="str_factory_nonstandard_aefc6elow">AFEC_6E[3:0]</string>
+    <string name="str_factory_nonstandard_aefc43">VD_AUTO_AGC</string>
+    <string name="str_factory_nonstandard_aefc44">AFEC_44</string>
+    <string name="str_factory_nonstandard_aefccb">AFEC_CB</string>
+    <string name="str_factory_nonstandard_vddsp">VD_DSP_VERSION</string>
+    <string name="str_factory_nonstandard_audiohidev">AUDIO_HIDEV_MODE</string>
+    <string name="str_factory_nonstandard_audionr">AUDIO_NR_THR</string>
+    <string name="str_factory_nonstandard_audiosif">Audio Sif Threshold</string>
+    <string name="str_factory_nonstandard_audiodsp">AUDIO_DSP_VERSION</string>
+    <string name="str_Non_Standard_Adjust_text">Non-Standard Adjust</string>
+    <string name="str_textview_factory_nonstandard_default_val">128</string>
+    <!-- For Non-Linear -->
+
+    <string name="str_factory_non_linear">Non_linear</string>
+    <string name="str_factory_nonlinear_curvetype">Curve Type</string>
+    <string name="str_factory_nonlinear_osd0">OSD_0</string>
+    <string name="str_factory_nonlinear_osd25">OSD_25</string>
+    <string name="str_factory_nonlinear_osd50">OSD_50</string>
+    <string name="str_factory_nonlinear_osd75">OSD_75</string>
+    <string name="str_factory_nonlinear_osd100">OSD_100</string>
+    <string name="str_Non_Linear_Adjust_text">Non-Linear Adjust</string>
+    <string name="str_textview_factory_nonlinear_curvetype_val">VGA</string>
+    <string name="str_textview_factory_nonlinear_osd_val">50</string>
+
+    <!-- For OverScan -->
+
+    <string name="str_factory_overscan">OverScan</string>
+    <string name="str_factory_overscan_source">Source</string>
+    <string name="str_factory_overscan_hsize">H Size</string>
+    <string name="str_factory_overscan_hposition">H Position</string>
+    <string name="str_factory_overscan_vsize">V Size</string>
+    <string name="str_factory_overscan_vposition">V Position</string>
+    <string name="str_factory_overscan_adjust_text">OverScan Adjust</string>
+    <string name="str_textview_factory_overscan_source_val">ATV</string>
+    <string name="str_textview_factory_overscan_default_val">50</string>
+
+    <!-- For SSC -->
+
+    <string name="str_factory_ssc">SSC Adjust</string>
+    <string name="str_factory_ssc_miuenable">MIU Enable</string>
+    <string name="str_factory_ssc_miumodulation">MIU Modulation</string>
+    <string name="str_factory_ssc_miupercentage">MIU Percentage(%)</string>
+    <string name="str_factory_ssc_lvdsenable">LVDS Enable</string>
+    <string name="str_factory_ssc_lvdsmodulation">LVDS Modulation</string>
+    <string name="str_factory_ssc_lvdspercentage">LVDS Percentage(%)</string>
+    <string name="str_factory_ssc_u_miuenable">MIU_U Enable</string>
+    <string name="str_factory_ssc_u_miumodulation">MIU_U Modulation</string>
+    <string name="str_factory_ssc_u_miupercentage">MIU_U Percentage(%)</string>
+    <string name="str_factory_ssc_u_lvdsenable">LVDS_U Enable</string>
+    <string name="str_factory_ssc_u_lvdsmodulation">LVDS_U Modulation</string>
+    <string name="str_factory_ssc_u_lvdspercentage">LVDS_U Percentage(%)</string>
+    <string name="str_ssc_adjust_text">SSC Adjust</string>
+    <string name="str_textview_factory_ssc_default_val">128</string>
+
+    <!-- For PEQ -->
+
+    <string name="str_factory_peq">PEQ</string>
+    <string name="str_factory_peq_fo1coarse">FO1 Coarse</string>
+    <string name="str_factory_peq_fo1fine">FO1 Fine</string>
+    <string name="str_factory_peq_fo2coarse">FO2 Coarse</string>
+    <string name="str_factory_peq_fo2fine">FO2 Fine</string>
+    <string name="str_factory_peq_fo3coarse">FO3 Coarse</string>
+    <string name="str_factory_peq_fo3fine">FO3 Fine</string>
+    <string name="str_factory_peq_fo4coarse">FO4 Coarse</string>
+    <string name="str_factory_peq_fo4fine">FO4 Fine</string>
+    <string name="str_factory_peq_fo5coarse">FO5 Coarse</string>
+    <string name="str_factory_peq_fo5fine">FO5 Fine</string>
+    <string name="str_factory_peq_gain1">Gain1</string>
+    <string name="str_factory_peq_gain2">Gain2</string>
+    <string name="str_factory_peq_gain3">Gain3</string>
+    <string name="str_factory_peq_gain4">Gain4</string>
+    <string name="str_factory_peq_gain5">Gain5</string>
+    <string name="str_factory_peq_q1">Q1</string>
+    <string name="str_factory_peq_q2">Q2</string>
+    <string name="str_factory_peq_q3">Q3</string>
+    <string name="str_factory_peq_q4">Q4</string>
+    <string name="str_factory_peq_q5">Q5</string>
+    <string name="str_peq_adjust_text">PEQ Adjust</string>
+    <string name="str_textview_factory_peq_default_val">128</string>
+
+    <!-- For CI -->
+    <string name="str_factory_ci_setting">CI Factory Setting</string>
+    <string name="str_factory_ci_credential_mode">CI+ Credential Mode</string>
+    <string name="str_factory_ci_performance_monitor">Performance Monitor</string>
+    <string name="str_factory_ci_resource_manager">Resource Manager</string>
+    <string name="str_factory_ci_application_infomation">Application Information</string>
+    <string name="str_factory_ci_conditional_access_support">Conditional Access Support</string>
+    <string name="str_factory_ci_host_control">Host Control</string>
+    <string name="str_factory_ci_date_time">Date-Time</string>
+    <string name="str_factory_ci_man_machine_interface">Man Machine Interface</string>
+    <string name="str_factory_ci_low_speed_communication">Low Speed Communication</string>
+    <string name="str_factory_ci_content_control">Content Control</string>
+    <string name="str_factory_ci_host_language_country">Host Language Country</string>
+    <string name="str_factory_ci_cam_upgrade">CAM Upgrade</string>
+    <string name="str_factory_ci_operator_profile">Operator Profile</string>
+    <string name="str_factory_ci_specific_application_support">Specific Application Support</string>
+    <string name="str_factory_ci_app_man_machine_interface">Application Man Machine Interface</string>
+    <string name="str_factory_ci_program_map_table">Program Map Table(No Used)</string>
+    <string name="str_factory_ci_host_service_shunning">Host Service Shunning</string>
+    <string name="str_factory_ci_canal_ready_authentication">Canal Ready Authentication</string>
+    <string name="str_factory_ci_default_tx_rx">Default TX/RX</string>
+    <string name="str_textview_factory_ci_credential_mode_val_Library">Test (CI Library)</string>
+    <string name="str_textview_factory_ci_credential_mode_va_Flash">Test (Nand Flash)</string>
+    <string name="str_textview_factory_ci_default_val">0</string>
+
+    <!-- For Mount Config -->
+    <string name="str_factory_mountconfig">Mount Config</string>
+
+    <string-array name="str_factory_mountconfig_val">
+        <item>RO</item>
+        <item>RW</item>
+    </string-array>
+
+    <!-- For PQ Table Update -->
+    <string name="str_factory_pqtableupdate">PQ Table Update</string>
+
+    <string-array name="str_factory_pqtableupdate_val">
+        <item>Update</item>
+        <item>Processing</item>
+        <item>Fail</item>
+        <item>OK</item>
+    </string-array>
+
+    <!-- For Ursa Info -->
+    <string name="str_factory_ursa_info">Ursa Info</string>
+    <string name="str_factory_ursa_version">Version</string>
+    <string name="str_factory_ursa_version_val">0000</string>
+    <string name="str_factory_ursa_changelist">Changelist</string>
+    <string name="str_factory_ursa_inverted_screen">Inverted Screen</string>
+    <string name="str_factory_ursa_logo">Logo</string>
+    <string name="str_factory_ursa_lvds_8_6">Lvds Map8_6</string>
+    <string name="str_factory_ursa_lvds_a_b">Lvds MapA_B</string>
+    <string name="str_factory_ursa_changelist_val">0000</string>
+
+    <!-- For Panel Info -->
+    <string name="str_factory_panel_info">Panel Info</string>
+
+    <!-- For OtherOption -->
+
+    <string name="str_set_mute_color">Mute Color</string>
+
+    <string-array name="str_arr_test_pattern_type">
+        <item>Off</item>
+        <item>White</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Black</item>
+    </string-array>
+
+    <string-array name="str_arr_mute_colors">
+        <item>Black</item>
+        <item>White</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+    </string-array>
+
+    <string name="str_factory_otheroption">Other Options</string>
+    <string name="str_factory_otheroption_version">Version</string>
+    <string name="str_factory_otheroption_name">Name</string>
+    <string name="str_factory_otheroption_android_build">AN Build</string>
+    <string name="str_factory_otheroption_changelist">ChangeList</string>
+    <string name="str_factory_otheroption_board">Board</string>
+    <string name="str_factory_otheroption_panel">Panel</string>
+    <string name="str_factory_otheroption_supernova_build">SN Build</string>
+    <string name="str_factory_otheroption_mboot_build">Mboot Build</string>
+    <string name="str_factory_otheroption_backlight_current">BL Current</string>
+    <string name="str_factory_otheroption_backlight_voltage">BL Voltage</string>
+    <string name="str_factory_otheroption_watchdog">Watch Dog</string>
+    <string name="str_factory_otheroption_wake_on_lan">Wake On Lan</string>
+    <string name="str_factory_otheroption_testpattern">Test Pattern</string>
+    <string name="str_factory_otheroption_upgrademboot">Upgrade Mboot</string>
+    <string name="str_factory_otheroption_upgrademain">Upgrade Main</string>
+    <string name="str_factory_otheroption_upgrade6m30">Upgrade 6M30</string>
+    <string name="str_factory_otheroption_upgradedualursa">Upgrade Dual Ursa</string>
+    <string name="str_factory_otheroption_restoretodefault">Restore To Default</string>
+    <string name="str_factory_otheroption_poweronmode">Power On Mode</string>
+    <string name="str_factory_otheroption_uartenable">Uart Enable</string>
+    <string name="str_factory_otheroption_dtvavdelay">DTV AV Delay(Non_standard)</string>
+    <string name="str_factory_otheroption_initialfunction">Initial Channel</string>
+    <string name="str_factory_otheroption_panelswing">Panel Swing</string>
+    <string name="str_factory_otheroption_audioprescale">Audio Prescale</string>
+    <string name="str_factory_otheroption_3d_selfadaptive_detectlevel">3D Self-Adaptive Detect Level</string>
+    <string name="str_factory_otheroption_upgrademboot_hint">Are You Sure Upgrade ?</string>
+    <string name="str_factory_otheroption_upgrademboot_confirm">Confirm</string>
+    <string name="str_factory_otheroption_upgrademboot_cancel">Cancel</string>
+    <string name="str_factory_otheroption_upgrademboot_nousb">Please Plug USB!</string>
+    <string name="str_factory_otheroption_xvycc">xvycc</string>
+    <string name="str_factory_otheroption_pvrrecordall">RVR Record All</string>
+    <string name="str_other_option_text">Other Option Adjust</string>
+    <string name="str_textview_factory_otheroption_version_val">0.0.1</string>
+    <string name="str_textview_factory_otheroption_board_val">J2</string>
+    <string name="str_textview_factory_otheroption_panel_val">Full-HD</string>
+    <string name="str_textview_factory_otheroption_date_val">2011-10-21 12:00</string>
+    <string name="str_textview_factory_otheroption_text_on">On</string>
+    <string name="str_textview_factory_otheroption_text_off">Off</string>
+    <string name="str_textview_factory_otheroption_upgrademboot_val">-->>"</string>
+    <string name="str_textview_factory_otheroption_upgrademain_val">-->>"</string>
+    <string name="str_textview_factory_otheroption_upgrade6m30_val">-->>"</string>
+    <string name="str_textview_factory_otheroption_upgradedualursa_val">-->>"</string>
+    <string name="str_textview_factory_otheroption_initialfunction_val">DTV</string>
+    <string name="str_factory_tvconfig_file_import">Import TV Config File</string>
+    <string name="str_factory_tvconfig_file_export">Export TV Config File</string>
+    <string name="str_factory_tvconfig_file_import_panel">Import Panel File</string>
+    <string name="str_factory_tvconfig_file_export_panel">Export Panel File</string>
+     
+    <!--qwh add for Burn In RGB -->
+    <string name="str_factory_otheroption_burnInRGB">Burn In RGB</string>
+    <string name="str_textview_factory_otheroption_burnInRGB_val">on</string>
+    <!--qwh add for Burn In RGB end-->
+    <string name="str_textview_factory_otheroption_default_val">0"</string>
+    <string name="str_factory_otheroption_main_pq_version">Main PQ Version</string>
+    <string name="str_factory_otheroption_sub_pq_version">Sub PQ Version</string>
+    <string name="str_textview_factory_otheroption_waiting_val">Please Waiting!</string>
+    <string name="str_factory_otheroption_mstv_tool">Uart debug</string>
+    <string name="str_factory_otheroption_pq_update">PQ Update</string>
+    <string name="str_factory_otheroption_pq_update_state">Please Click!</string>
+    <string name="str_factory_nonstandard_afeccf_av">AFEC_CF[2]_AV</string>
+    <string name="str_factory_nonstandard_afeccf_atv">AFEC_CF[2]_ATV</string>
+    <string name="str_ursa_test_result_title">Result :</string>
+    <string name="str_ursa_test_run_auto">Run Auto</string>
+    <string name="str_ursa_test_title">Ursa Test</string>
+    <string name="str_ursa_test_run">Run</string>
+    <string name="str_Info_title">Info</string>
+    <string name="str_factory_otheroption_sw_version">SW Version</string>
+    <string name="str_factory_otheroption_dtv_preset">DTV Preset</string>
+    <string name="str_factory_otheroption_dtv_preset_state">Please Click!</string>
+    <string name="str_factory_otheroption_dtv_preset_hint_msg1">Please wait...</string>
+    <string name="str_factory_otheroption_dtv_preset_hint_msg2">Finish, AC off after 1 min.</string>
+    <string name="enter">OK键进入 factory menu——></string>
+    <string name="tips">“左右”调整，“OK”进入下一级，“退出”/“菜单”退出</string>
+    <string name="str_factory_otheroption_str_enable">Enable STR</string>
+    <string name="str_factory_otheroption_audiodelay">Speaker Audio Delay</string>
+    <string name="str_textview_factory_otheroption_audiodelay_val">0</string>
+
+    <!-- For IP Enable Mapping -->
+    <string name="str_factory_ipenablemapping">IP Enable Mapping</string>
+    <string name="str_ipenablemapping_text">IP Enable Mapping</string>
+
+    <!-- ljh -->
+    <string name="str_factory_otheroption_dvbt_dvbc_info">Demod info</string>
+    <string name="str_textview_factory_otheroption_dvbt_dvbc_val">-->></string>
+    <string name="str_textview_factory_otheroption_dvbt_info">DVBT info</string>
+    <string name="str_textview_factory_otheroption_dvbc_info">DVBC info</string>
+    <string name="str_textview_factory_otheroption_dvbc_info_empty">获取DVBT / DVBC info 失败</string>
+
+    <!-- For factory Program Preset -->
+    <string name="str_factory_otheroption_factoryprogrampresetfunction">Factory Program Preset Function</string>
+    <string name="str_factory_otheroption_factoryprogrampreset">Factory Program Preset</string>
+    <string name="str_factory_otheroption_factoryprogramreset">Factory Program Reset</string>
+    <string name="str_factory_otheroption_backupdbtousb">Backup DB to USB</string>
+    <string name="str_factory_otheroption_restoredbfromusb">Restore DB from USB</string>
+    <string name="str_factory_otheroption_factoryprogrampreset_state">Please Click!</string>
+    <string name="str_textview_factory_otheroption_text_pass">Pass</string>
+    <string name="str_textview_factory_otheroption_text_fail">Fail</string>
+    <string name="str_factory_db_path">/tvdatabase/Database/</string>
+    <string name="str_factory_db_file">*cmdb*.bin</string>
+
+    <!-- For 3D self adaptive level -->
+    <string-array name="str_arr_3d_self_adaptive">
+    <item>LOW</item>
+    <item>MIDDLE</item>
+    <item>HIGH</item>
+    </string-array>
+
+</resources>

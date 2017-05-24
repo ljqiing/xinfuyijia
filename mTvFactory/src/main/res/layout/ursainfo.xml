@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="400dip"
+    android:layout_height="533dip"
+    android:background="#3280A0">
+    <TextView
+        android:id="@+id/factory_ursa_version"
+        android:layout_width="fill_parent"
+        android:layout_height="47dip"
+        android:gravity="left"
+        android:text="@string/str_factory_ursa_info"
+        android:textColor="#ffffff"
+        android:textSize="17dip" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="333dip">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <!-- For Ursa version -->
+            <LinearLayout
+                android:id="@+id/linearlayout_ursa_info_version"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_ursa_info_version"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_ursa_version"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_ursa_info_version_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_factory_ursa_version_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- For Ursa changelist -->
+            <LinearLayout
+                android:id="@+id/linearlayout_ursa_info_changelist"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_ursa_info_changelist"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_ursa_changelist"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_ursa_info_changelist_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_factory_ursa_changelist_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
